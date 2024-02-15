@@ -36,5 +36,6 @@ void AddProduct()
 
 void MainMenu()
 {
+    Console.WriteLine("Temp");
     AddProduct();
 }
