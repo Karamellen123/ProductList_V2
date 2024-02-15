@@ -25,7 +25,11 @@ void AddProduct()
 
     // Check if the input matches the pattern
     if (exitRegex.IsMatch(temp))
+    {
+        ProductLists.Sort();
         printList();
+
+    }
     else
     {
         ProductLists.Add(temp);
